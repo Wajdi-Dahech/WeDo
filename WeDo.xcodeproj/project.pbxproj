@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0EEEBBC024DB3582002AFF78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBBBF24DB3582002AFF78 /* AppDelegate.swift */; };
 		0EEEBBC224DB3582002AFF78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBBC124DB3582002AFF78 /* SceneDelegate.swift */; };
-		0EEEBBC424DB3582002AFF78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBBC324DB3582002AFF78 /* ViewController.swift */; };
+		0EEEBBC424DB3582002AFF78 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBBC324DB3582002AFF78 /* ToDoListViewController.swift */; };
 		0EEEBBC724DB3582002AFF78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEBBC524DB3582002AFF78 /* Main.storyboard */; };
 		0EEEBBC924DB3584002AFF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEBBC824DB3584002AFF78 /* Assets.xcassets */; };
 		0EEEBBCC24DB3584002AFF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEBBCA24DB3584002AFF78 /* LaunchScreen.storyboard */; };
+		0EEEBC0224DC9104002AFF78 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBC0124DC9104002AFF78 /* CategoryViewController.swift */; };
+		0EEEBC0424E2A5E2002AFF78 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBC0324E2A5E2002AFF78 /* Item.swift */; };
+		0EEEBC0624E2A5EE002AFF78 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBC0524E2A5EE002AFF78 /* Category.swift */; };
+		0EEEBC0824E2F0D1002AFF78 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBC0724E2F0D0002AFF78 /* SwipeTableViewController.swift */; };
+		D32AFF2A9575E1EC53F63B62 /* Pods_WeDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD36A5D101DD5F1A02AF6F7 /* Pods_WeDo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05642D3F4CA043D844F5A3A8 /* Pods-WeDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeDo.debug.xcconfig"; path = "Target Support Files/Pods-WeDo/Pods-WeDo.debug.xcconfig"; sourceTree = "<group>"; };
+		0BD36A5D101DD5F1A02AF6F7 /* Pods_WeDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEEBBBC24DB3582002AFF78 /* WeDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEEBBBF24DB3582002AFF78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EEEBBC124DB3582002AFF78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0EEEBBC324DB3582002AFF78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EEEBBC324DB3582002AFF78 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		0EEEBBC624DB3582002AFF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EEEBBC824DB3584002AFF78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EEEBBCB24DB3584002AFF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EEEBBCD24DB3584002AFF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEEBC0124DC9104002AFF78 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		0EEEBC0324E2A5E2002AFF78 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0EEEBC0524E2A5EE002AFF78 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		0EEEBC0724E2F0D0002AFF78 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		206D60A0B68346AB666F682F /* Pods-WeDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeDo.release.xcconfig"; path = "Target Support Files/Pods-WeDo/Pods-WeDo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32AFF2A9575E1EC53F63B62 /* Pods_WeDo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A7199045B13E31F04107A0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05642D3F4CA043D844F5A3A8 /* Pods-WeDo.debug.xcconfig */,
+				206D60A0B68346AB666F682F /* Pods-WeDo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		0EEEBBB324DB3581002AFF78 = {
 			isa = PBXGroup;
 			children = (
 				0EEEBBBE24DB3582002AFF78 /* WeDo */,
 				0EEEBBBD24DB3582002AFF78 /* Products */,
+				0A7199045B13E31F04107A0B /* Pods */,
+				ACD2B7F02CD059CCBBBD9044 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +82,49 @@
 			children = (
 				0EEEBBBF24DB3582002AFF78 /* AppDelegate.swift */,
 				0EEEBBC124DB3582002AFF78 /* SceneDelegate.swift */,
-				0EEEBBC324DB3582002AFF78 /* ViewController.swift */,
-				0EEEBBC524DB3582002AFF78 /* Main.storyboard */,
+				0EEEBBD524DC7829002AFF78 /* Data Model */,
+				0EEEBBD624DC7839002AFF78 /* Views */,
+				0EEEBBD724DC7842002AFF78 /* Controllers */,
 				0EEEBBC824DB3584002AFF78 /* Assets.xcassets */,
 				0EEEBBCA24DB3584002AFF78 /* LaunchScreen.storyboard */,
 				0EEEBBCD24DB3584002AFF78 /* Info.plist */,
 			);
 			path = WeDo;
+			sourceTree = "<group>";
+		};
+		0EEEBBD524DC7829002AFF78 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				0EEEBC0324E2A5E2002AFF78 /* Item.swift */,
+				0EEEBC0524E2A5EE002AFF78 /* Category.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		0EEEBBD624DC7839002AFF78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0EEEBBC524DB3582002AFF78 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0EEEBBD724DC7842002AFF78 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0EEEBC0124DC9104002AFF78 /* CategoryViewController.swift */,
+				0EEEBBC324DB3582002AFF78 /* ToDoListViewController.swift */,
+				0EEEBC0724E2F0D0002AFF78 /* SwipeTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ACD2B7F02CD059CCBBBD9044 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BD36A5D101DD5F1A02AF6F7 /* Pods_WeDo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EEEBBD024DB3584002AFF78 /* Build configuration list for PBXNativeTarget "WeDo" */;
 			buildPhases = (
+				7437F851DE428C62931BE7E4 /* [CP] Check Pods Manifest.lock */,
 				0EEEBBB824DB3582002AFF78 /* Sources */,
 				0EEEBBB924DB3582002AFF78 /* Frameworks */,
 				0EEEBBBA24DB3582002AFF78 /* Resources */,
+				BE5D865DEE88CF6FFCEBD23E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +195,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7437F851DE428C62931BE7E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeDo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE5D865DEE88CF6FFCEBD23E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeDo/Pods-WeDo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeDo/Pods-WeDo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeDo/Pods-WeDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0EEEBBB824DB3582002AFF78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EEEBBC424DB3582002AFF78 /* ViewController.swift in Sources */,
+				0EEEBC0224DC9104002AFF78 /* CategoryViewController.swift in Sources */,
+				0EEEBBC424DB3582002AFF78 /* ToDoListViewController.swift in Sources */,
 				0EEEBBC024DB3582002AFF78 /* AppDelegate.swift in Sources */,
+				0EEEBC0824E2F0D1002AFF78 /* SwipeTableViewController.swift in Sources */,
+				0EEEBC0424E2A5E2002AFF78 /* Item.swift in Sources */,
 				0EEEBBC224DB3582002AFF78 /* SceneDelegate.swift in Sources */,
+				0EEEBC0624E2A5EE002AFF78 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		0EEEBBD124DB3584002AFF78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05642D3F4CA043D844F5A3A8 /* Pods-WeDo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +403,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Wajdi-Dahech.WeDo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0EEEBBD224DB3584002AFF78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206D60A0B68346AB666F682F /* Pods-WeDo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +422,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Wajdi-Dahech.WeDo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
